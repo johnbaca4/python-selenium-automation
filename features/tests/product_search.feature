@@ -3,8 +3,8 @@ Feature: Test Scenarios for Search functionality
 
   Scenario: User can search for a product
     Given Open Google page
-    When Input shoes into search field
+    When Input food into search field
     And Click on search icon
-    Then Product results for shoes are shown
-    And First result contains shoes
+    Then Product results for food are shown
+    And First result contains food
 
